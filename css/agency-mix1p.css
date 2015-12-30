@@ -11,7 +11,7 @@ html, body {
 }
 
 .left-box {
-    height: 400px;
+    height: 250px;
     border-right: 1px solid;
 /*    opacity: 0.9; */
     background-color: #39A9DB;
@@ -19,7 +19,7 @@ html, body {
 }
 
 .right-box {
-    height: 400px;
+    height: 250px;
     border-left: 1px solid;
 /*    opacity: 0.9; */
     background-color: #FF5A60;
@@ -284,11 +284,14 @@ header .intro-text .intro-lead-in {
   opacity: 0.9;
 }
 header .intro-text .intro-heading {
-    font-family: Nothing You Could Do;
+    font-family: Allerta Stencil;
   /* font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; */
  /* text-transform: uppercase; */
+/*  background-color: #FADB6A;
+  opacity: 0.9; */
   font-weight: 300;
   font-size: 40px;
+  color: black;
   line-height: 50px;
   margin-bottom: 25px;
   opacity: 0.9;
@@ -307,9 +310,10 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-      font-family: Nothing You Could Do;
+      font-family: Allerta Stencil;
 /*    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 /*    text-transform: uppercase; */
+    color: black;
     font-weight: 900;
     font-size: 40px;
     line-height: 75px;
