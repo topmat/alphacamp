@@ -289,6 +289,7 @@ header .intro-text .intro-heading {
  /* text-transform: uppercase; */
 /*  background-color: #FADB6A;
   opacity: 0.9; */
+  background-color: #FBD13F;
   font-weight: 300;
   font-size: 40px;
   color: black;
@@ -302,6 +303,10 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
     color: white;
   }
+  header .intro-text .intro-heading .intro-heading-text {
+      background-color: #FBD13F;        
+  }
+
   header .intro-text .intro-lead-in {
     font-family: Pacifico;
     /* font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; */
