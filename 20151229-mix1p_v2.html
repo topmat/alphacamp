@@ -25,7 +25,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Allerta+Stencil" />
-
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -83,33 +83,8 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Fund My Tutorial</a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <div class="fb-like" data-href="https://www.facebook.com/fundmytutorial/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-
-
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+    <div class="fb-like" data-href="https://www.facebook.com/fundmytutorial/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
     <!-- Header -->
     <header>
@@ -117,27 +92,38 @@
             <div class="row">
             <div class="intro-text">
                 <div class="intro-heading">
+                    FUND My TUTORIAL
                     <div class="intro-heading-text">
-                    Fund the tech tutorial you want or get funded.
+                        <span color="font-weight:900;">Fund</span> <span style="font-weight:100;"> the tech tutorial you want or </span><span style="color:#FC8E20;">Get Funded.</span>
                     </div>
                 </div>
                 <div class="intro-lead-in">
                     <div class="col-xs-12 col-md-6 left-box">
                         <div class="box-content">
-                            Discover and fund the best tutorial ideas
+                            <span style="font-weight:900;">Backers</span>
+                            <br>
+                            <br>
+                            <span style="font-weight:100; font-size:30px;">Discover and fund the best tutorial ideas</span>
                         </div>
-                        <form class="form-inline email-form">
-                            <input type="email" class="form-control" placeholder="Your email address">
+                        <script type="text/javascript">var submitted=false;</script>
+                                   <iframe name="hidden_iframe" id="hidden_iframe"
+                                   style="display:none;" onload="if(submitted)
+                                   {window.location='/thankyou.html';}"></iframe>
+                        <form class="form-inline email-form"  action="http://www.newsleopard.com/mailverify.htm?x=0000000051bdb3cc0151bea4fd7c1252" method=post target="hidden_iframe" onsubmit="submitted=true;">
+                            <input type="email" class="form-control email-input" placeholder="Your email address">
                             <button type="submit" class="btn btn-success">Keep Me Updated</button>
                         </form>
                     </div>
 
                     <div class="col-xs-12 col-md-6 right-box">
                         <div class="box-content">
-                            Share your knowledge and get rewarded
+                            <span style="font-weight:900;">Authors</span>
+                            <br>
+                            <br>
+                            <span style="font-weight:100; font-size:30px;">Share your knowledge and get rewarded</span>
                         </div>
-                        <form class="form-inline email-form">
-                            <input type="email" class="form-control" placeholder="Your email address">
+                        <form class="form-inline email-form"  action="http://www.newsleopard.com/mailverify.htm?x=0000000051bdb3cc0151c3a5d7a77692" method=post target="hidden_iframe" onsubmit="submitted=true;">
+                            <input type="email" class="form-control email-input" placeholder="Your email address">
                             <button type="submit" class="btn btn-success">Yes, I’m Interested</button>
                         </form>
                     </div>
